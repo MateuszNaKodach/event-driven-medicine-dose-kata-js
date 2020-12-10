@@ -1,6 +1,6 @@
 const MedicinePump = require('../dependencies/medicine-pump')
 const HealthMonitor = require('../dependencies/health-monitor')
-const AlertService = require('../dependencies/press-service')
+const AlertService = require('../dependencies/alert-service')
 const DoseController = require('../src/dose-controller')
 
 

@@ -1,11 +1,18 @@
-function DoseController(healthMonitor, medicinePump, alertService) {
+function DoseController (healthMonitor, medicinePump, alertService) {
 
-    return {
-        checkHealthAndApplyMedicine: checkHealthAndApplyMedicine
-    };
+  return {
+    checkHealthAndApplyMedicine: checkHealthAndApplyMedicine
+  }
 
-    function checkHealthAndApplyMedicine() {
-
+  function checkHealthAndApplyMedicine () {
+    const pressure = healthMonitor.getSystolicBloodPressure()
+    if (pressure < 60) {
+      medicinePump.dose({ name: "RaisePressure", count: 2 })
+    } else {
+      medicinePump.dose({ name: "RaisePressure", count: 1 })
     }
+  }
 
 }
+
+module.exports = DoseController

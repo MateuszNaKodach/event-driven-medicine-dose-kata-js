@@ -1,3 +1,4 @@
+
 function AlertService() {
     return {
         notifyDoctor: function () {
@@ -5,3 +6,5 @@ function AlertService() {
         }
     }
 }
+
+module.exports = AlertService

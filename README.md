@@ -6,6 +6,7 @@ Część event-driven: https://github.com/nowakprojects/event-driven-medicine-do
 
 
 Zadanie do wykonania:
+
 0. Użyjcie to repozytorium jako szablon (`Use this template`). Pracujcie na repozytorium na koncie jednej osoby na GitHub.
 1. W 2 osobowych parach zdefiniujcie testy i wykonajcie implementację spełniająca wymagania opisane w pliku [README](./traditional/README.md)
 2. Najlepiej spotkać się w jednym czasie za pomocą Google Meet. Nawet jeśli nie możecie tego robić na spotkaniu to proponuję taki model pracy.
